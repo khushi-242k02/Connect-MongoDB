@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const uri = "mongodb+srv://khushi:khushi@cluster0.2zudw.mongodb.net/student?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "MONGODB_URI";
 // students is database name 
 
 mongoose.connect(uri);
